@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?> string
+<TextureAtlas imagePath="bf-demongf.png">
+<!-- Created with Adobe Animate version 20.0.0.17400 -->
+<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle Dance0000"x="0" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0001"x="0" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0002"x="600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0003"x="600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0004"x="1200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0005"x="1200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0006"x="1800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0007"x="1800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0008"x="2400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0009"x="2400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance00010"x="3000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance00011"x="3000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0000"x="3600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0001"x="3600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0002"x="4200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0003"x="4200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0000"x="4800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0001"x="4800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0002"x="5400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0003"x="5400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note UP0000"x="6000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note UP0001"x="6000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note UP0002"x="6600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note UP0003"x="6600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note DOWN0000"x="7200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note DOWN0001"x="7200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note DOWN0002"x="7800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note DOWN0003"x="7800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note LEFT0004"x="8400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note LEFT0005"x="8400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note LEFT0006"x="9000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note LEFT0007"x="9000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note RIGHT0000"x="9600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note RIGHT0001"x="9600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note RIGHT0002"x="10200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note RIGHT0003"x="10200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note UP0000"x="10800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note UP0001"x="10800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note UP0002"x="11400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note UP0003"x="11400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note DOWN0000"x="12000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note DOWN0001"x="12000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note DOWN0002"x="12600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Miss Note DOWN0003"x="12600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+</TextureAtlas>

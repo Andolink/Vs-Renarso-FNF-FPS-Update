@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?> string
+<TextureAtlas imagePath="gf-outside.png">
+<!-- Created with Adobe Animate version 20.0.0.17400 -->
+<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle DanceL0000"x="0" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceL0001"x="600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceL0002"x="1200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceL0003"x="1800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceL0004"x="2400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceL0005"x="3000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceL0006"x="3600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceL0007"x="4200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceR0000"x="4800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceR0001"x="5400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceR0002"x="6000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceR0003"x="6600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceR0004"x="7200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceR0005"x="7800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceR0006"x="8400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle DanceR0007"x="9000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+</TextureAtlas>
