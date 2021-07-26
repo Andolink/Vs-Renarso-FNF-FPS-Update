@@ -18,3 +18,6 @@
 - [KadeDev](https://twitter.com/KadeDeveloper) - Occasional code advice. (Sometime I don't listen though...)
 - [GWebDev](https://twitter.com/GFlipaclip) - Haxeflixel Video
 - [Ethab Taxi](https://twitter.com/EthabTaxi) - He's just sorta chillin'.
+
+## Version 0.1.2
+- bf-demongf Death Animation !!!
