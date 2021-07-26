@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?> string
+<TextureAtlas imagePath="bf-demongf-dead.png">
+<!-- Created with Adobe Animate version 20.0.0.17400 -->
+<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle Dance0000"x="0" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0001"x="0" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0002"x="600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0003"x="600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0004"x="1200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0005"x="1200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0006"x="1800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0007"x="1800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0008"x="2400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0009"x="2400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0010"x="3000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0011"x="3000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0012"x="3600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0013"x="3600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0014"x="4200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0015"x="4200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0016"x="4800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0017"x="4800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0018"x="5400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0019"x="5400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0020"x="6000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0021"x="6000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0022"x="6600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0023"x="6600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0024"x="7200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0025"x="7200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0026"x="7800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0027"x="7800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0028"x="8400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0029"x="8400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0030"x="9000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0031"x="9000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance00032"x="9600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0033"x="9600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0034"x="10200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0035"x="10200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0036"x="10800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0037"x="10800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0038"x="11400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0039"x="11400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0040"x="12000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0041"x="12000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0042"x="12600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0043"x="12600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0044"x="13200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0045"x="13200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0046"x="13800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0047"x="13800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0048"x="14400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0049"x="14400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0050"x="15000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0051"x="15000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0052"x="15600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0053"x="15600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0054"x="16200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Idle Dance0055"x="16200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0000"x="16800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0001"x="16800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0002"x="17400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0003"x="17400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0004"x="18000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0005"x="18000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0006"x="18600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0007"x="18600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0008"x="19200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note LEFT0009"x="19200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0000"x="19800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0001"x="19800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0002"x="20400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0003"x="20400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0004"x="21000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0005"x="21000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0006"x="21600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0007"x="21600" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0008"x="22200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0009"x="22200" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0010"x="22800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0011"x="22800" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0012"x="23400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT0013"x="23400" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT00014"x="24000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+	<SubTexture name="Sing Note RIGHT00015"x="24000" y="0" width="600" height="800" frameX="0" frameY="0" frameWidth="600" frameHeight="800"/>
+</TextureAtlas>
