@@ -586,6 +586,21 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 				flipX = true;
+
+			case 'bf-demongf-dead':
+				frames = FlxAtlasFrames.fromSparrow('assets/images/bf-demongf-dead.png', 'assets/images/bf-demongf-dead.xml');
+				animation.addByPrefix('singUP', "Idle Dance", 24, false);
+				animation.addByPrefix('firstDeath', "Idle Dance", 24, false);
+				animation.addByPrefix('deathLoop', "Sing Note LEFT", 24, true);
+				animation.addByPrefix('deathConfirm', "Sing Note RIGHT", 24, false);
+				animation.play('firstDeath');
+
+				addOffset('firstDeath');
+				addOffset('deathLoop');
+				addOffset('deathConfirm');
+				playAnim('firstDeath');
+				
+				flipX = true;
 		}
 
 		dance();
