@@ -66,7 +66,7 @@ class FreeplayState extends MusicBeatState
 			addWeek(['Senpai', 'Roses', 'Thorns'], 6, ['senpai', 'senpai-angry', 'spirit']);
 
 		if (StoryMenuState.weekUnlocked[7] || isDebug)
-			addWeek(['Fan', 'Crazy', 'Corrupt'], 6, ['renarso', 'renarsocrazy', 'renarsoevil']);
+			addWeek(['Fan', 'Crazy', 'Corrupt'], 7, ['renarso', 'renarsocrazy', 'renarsoevil']);
 
 		// LOAD MUSIC
 		/*for(x in songs){
@@ -238,10 +238,20 @@ class FreeplayState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		if (curDifficulty < 0)
-			curDifficulty = 2;
-		if (curDifficulty > 2)
-			curDifficulty = 0;
+		if (songs[curSelected].week >= 7)
+		{
+			if (curDifficulty < 0)
+				curDifficulty = 3;
+			if (curDifficulty > 3)
+				curDifficulty = 0;
+		}
+		else
+		{
+			if (curDifficulty < 0)
+				curDifficulty = 2;
+			if (curDifficulty > 2)
+				curDifficulty = 0;
+		}
 
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
@@ -255,6 +265,8 @@ class FreeplayState extends MusicBeatState
 				diffText.text = 'NORMAL';
 			case 2:
 				diffText.text = "HARD";
+			case 3:
+				diffText.text = "OSU!";
 		}
 	}
 
@@ -268,6 +280,15 @@ class FreeplayState extends MusicBeatState
 			curSelected = songs.length - 1;
 		if (curSelected >= songs.length)
 			curSelected = 0;
+		
+		if (songs[curSelected].week < 7)
+		{
+			if (curDifficulty == 3)
+			{
+				curDifficulty = 2;
+				diffText.text = "HARD";
+			}
+		}
 
 		// selector.y = (70 * curSelected) + 30;
 

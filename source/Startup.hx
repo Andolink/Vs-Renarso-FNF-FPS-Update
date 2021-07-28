@@ -68,7 +68,7 @@ class Startup extends MusicBeatState
             preload();  
         }
         if(splash.animation.curAnim.finished && splash.animation.curAnim.name == "end"){
-            FlxG.switchState(new TitleVidState());
+            FlxG.switchState(new TitleState());
             
         }
         

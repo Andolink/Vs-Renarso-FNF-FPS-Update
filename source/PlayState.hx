@@ -1703,6 +1703,34 @@ class PlayState extends MusicBeatState
 			enemyShake = false;
 		}
 
+		//inspired by shaggy's source code
+
+		if (curStage == "outsideEvil")
+		{
+			var rotRateSh = curStep / 9.5;
+			var sh_r = 60;
+			var sh_toy = 250-Math.sin(rotRateSh * 2) * sh_r * 0.45;
+			var sh_tox = 100-Math.cos(rotRateSh) * sh_r;
+		
+			dad.x += (sh_tox - dad.x) / 12;
+			dad.y += (sh_toy - dad.y) / 12;
+			boyfriend.y += (sh_toy - boyfriend.y) / 10;
+
+			//ghost0.y += (sh_toy - ghost0.y) / 18;
+			//ghost1.y -= (sh_toy - ghost1.y) / 18;
+			//ghost2.y += (sh_toy - ghost2.y) / 18;
+			//ghost3.y -= (sh_toy - ghost3.y) / 18;
+			//ghost4.y += (sh_toy - ghost4.y) / 18;
+			//ghost5.y -= (sh_toy - ghost5.y) / 18;
+		}
+		else if (curStage == "outsideCrazy")
+		{
+			var rotRateSh = curStep / 9.5;
+			var sh_r = 60;
+			var sh_toy = 100-Math.sin(rotRateSh * 2) * sh_r * 0.45;
+			dad.y += (sh_toy - dad.y) / 12;
+		}
+
 		#if !debug
 		perfectMode = false;
 		#end
@@ -2042,7 +2070,22 @@ class PlayState extends MusicBeatState
 
 					if (dad.curCharacter == 'renarsoevil') 
 					{
-						enemyShake = true;	
+						enemyShake = true;
+						var h = health;
+						if (h > 0.02)
+						{
+							switch (storyDifficulty)
+							{
+								case 0:
+									health -= 0.004;
+								case 1:
+									health -= 0.005;
+								case 2:
+									health -= 0.008;
+								case 3:
+									health -= 0.008;
+							}
+						}
 					}
 
 					enemyStrums.forEach(function(spr:FlxSprite)
@@ -2236,6 +2279,9 @@ class PlayState extends MusicBeatState
 
 				if (storyDifficulty == 2)
 					difficulty = '-hard';
+
+				if (storyDifficulty == 3)
+					difficulty = '-osu';
 
 				trace('LOADING NEXT SONG');
 				trace(PlayState.storyPlaylist[0].toLowerCase() + difficulty);

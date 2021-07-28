@@ -109,6 +109,9 @@ class PauseSubState extends MusicBeatSubstate
 					if (PlayState.storyDifficulty == 2)
 						difficulty = '-hard';
 
+					if (PlayState.storyDifficulty == 3)
+						difficulty = '-osu';
+
 					trace('LOADING NEXT SONG');
 					trace(PlayState.storyPlaylist[0].toLowerCase() + difficulty);
 

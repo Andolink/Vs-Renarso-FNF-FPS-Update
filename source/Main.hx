@@ -26,7 +26,7 @@ class Main extends Sprite
 		if(preload)
 			addChild(new FlxGame(0, 0, Startup, 1, 144, 144, true));
 		else
-			addChild(new FlxGame(0, 0, TitleVidState, 1, 144, 144, true));
+			addChild(new FlxGame(0, 0, TitleState, 1, 144, 144, true));
 
 		#if !mobile
 		fpsDisplay = new FPS(10, 3, 0xFFFFFF);

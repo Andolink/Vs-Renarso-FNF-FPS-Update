@@ -22,7 +22,7 @@ class StoryMenuState extends MusicBeatState
 	public static var weekData:Array<Dynamic>;
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true];
+	public static var weekUnlocked:Array<Bool> = [true, true];
 
 	public static var weekCharacters:Array<Dynamic>;
 
@@ -53,23 +53,11 @@ class StoryMenuState extends MusicBeatState
 	
 		weekData = [
 			['Tutorial'],
-			['Bopeebo', 'Fresh', 'Dadbattle'],
-			['Spookeez', 'South', 'Monster'],
-			['Pico', 'Philly', "Blammed"],
-			['Satin-Panties', "High", "Milf"],
-			['Cocoa', 'Eggnog', 'Winter-Horrorland'],
-			['Senpai', 'Roses', 'Thorns'],
 			['Fan', 'Crazy', 'Corrupt']
 		];
 		
 		weekCharacters = [
 			['dad', 'bf', 'gf'],
-			['dad', 'bf', 'gf'],
-			['spooky', 'bf', 'gf'],
-			['pico', 'bf', 'gf'],
-			['mom', 'bf', 'gf'],
-			['parents-christmas', 'bf', 'gf'],
-			['senpai', 'bf', 'gf'],
 			['renarso', 'bf', 'gf-outside']
 		];
 	
@@ -191,6 +179,7 @@ class StoryMenuState extends MusicBeatState
 		sprDifficulty.animation.addByPrefix('easy', 'EASY');
 		sprDifficulty.animation.addByPrefix('normal', 'NORMAL');
 		sprDifficulty.animation.addByPrefix('hard', 'HARD');
+		sprDifficulty.animation.addByPrefix('osu', 'OSU');
 		sprDifficulty.animation.play('easy');
 		changeDifficulty();
 
@@ -318,6 +307,8 @@ class StoryMenuState extends MusicBeatState
 					diffic = '-easy';
 				case 2:
 					diffic = '-hard';
+				case 3:
+					diffic = '-osu';
 			}
 
 			PlayState.storyDifficulty = curDifficulty;
@@ -331,7 +322,7 @@ class StoryMenuState extends MusicBeatState
 				if (FlxG.sound.music != null)
 					FlxG.sound.music.stop();
 				
-					if (curWeek == 7)
+					if (curWeek == 1)
 					{
 						FlxG.switchState(new VideoState('assets/videos/cutscene0.webm', function(){
 							FlxG.switchState(new PlayState());
@@ -349,10 +340,20 @@ class StoryMenuState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		if (curDifficulty < 0)
-			curDifficulty = 2;
-		if (curDifficulty > 2)
-			curDifficulty = 0;
+		if (curWeek == 0)
+		{
+			if (curDifficulty < 0)
+				curDifficulty = 2;
+			if (curDifficulty > 2)
+				curDifficulty = 0;
+		}
+		else
+		{
+			if (curDifficulty < 0)
+				curDifficulty = 3;
+			if (curDifficulty > 3)
+				curDifficulty = 0;
+		}
 
 		sprDifficulty.offset.x = 0;
 
@@ -366,6 +367,9 @@ class StoryMenuState extends MusicBeatState
 				sprDifficulty.offset.x = 70;
 			case 2:
 				sprDifficulty.animation.play('hard');
+				sprDifficulty.offset.x = 20;
+			case 3:
+				sprDifficulty.animation.play('osu');
 				sprDifficulty.offset.x = 20;
 		}
 
@@ -398,6 +402,7 @@ class StoryMenuState extends MusicBeatState
 		sprDifficulty.animation.addByPrefix('easy', 'EASY');
 		sprDifficulty.animation.addByPrefix('normal', 'NORMAL');
 		sprDifficulty.animation.addByPrefix('hard', 'HARD');
+		sprDifficulty.animation.addByPrefix('osu', 'OSU');
 		changeDifficulty();
 
 		var bullShit:Int = 0;
